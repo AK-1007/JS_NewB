@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 200px;
+  transition: background-color 0.3s ease;
+}
+
+
+.colorButton {
+  padding: 12px 24px;
+  border: 1px solid black;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  transition: transform 0.2s;
+}
+
+#red {
+  background-color: red;
+}
+#blue {
+  background-color: blue;
+}
+#purple {
+  background-color: purple;
+}
+#white {
+  background-color: #ccc;
+  color: black;
+}
+.colorButton:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="background-color: bisque">
+    <header>
+      <h1>BMI CALCULATOR</h1>
+    </header>
+
+    <main>
+      <form>
+        <label for="height">HEIGHT(in cm)</label>
+        <input
+          type="text"
+          id="height"
+          name="height"
+          placeholder="height"
+        /><br />
+        <label for="weight">WEIGHT(in kg)</label>
+        <input type="text" id="weight" name="weight" placeholder="weight" /><br><br>
+         <button type="submit" class="calButton">Calculate.</button>
+        <div id="resultBox">Your BMI.....</div>
+      </form>
+    </main>
+
+    <footer>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">BMI Value</th>
+            <th scope="col">category</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Below 18.5</td>
+            <td>Underweight</td>
+          </tr>
+          <tr>
+            <td>18.5 - 24.9</td>
+            <td>Normal weight</td>
+          </tr>
+          <tr>
+            <td>over 25.0</td>
+            <td>Overweight</td>
+          </tr>
+        </tbody>
+      </table>
+    </footer>
+    <script src="logic.js"></script>
+  </body>
+</html>

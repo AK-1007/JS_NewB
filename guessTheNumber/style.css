@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(87, 86, 86);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* This ensures body stretches full screen */
+  color: white;
+}
+
+#form{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  
+}
+input{
+  padding: 15px 60px;
+  border: 5px solid grey;
+  border-radius: 6px;
+  background-color: white;
+  
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+button{
+
+}
+
